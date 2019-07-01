@@ -28,6 +28,7 @@ This was done throught sclicing the output such that we have the surrounding row
 `RDM(:,union(1:(Td+Gd),end-(Td+Gd-1):end)) = 0;  % Columns`
 
 ## Output:
+This is the output for a target at 110m moving at -20 m/s relative speed<br>
 ![alt text](https://github.com/IbrahimOmar91/SFND-Radar/blob/master/imgs/out01.PNG)
 
 ![alt text](https://github.com/IbrahimOmar91/SFND-Radar/blob/master/imgs/out02.PNG)
