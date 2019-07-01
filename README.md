@@ -26,3 +26,10 @@ and that’s all for the Implementation.
 This was done throught sclicing the output such that we have the surrounding rows and columns sepending on the Training cells for both range and doppler.<br>
 `RDM(union(1:(Tr+Gr),end-(Tr+Gr-1):end),:) = 0;  % Rows`<br>
 `RDM(:,union(1:(Td+Gd),end-(Td+Gd-1):end)) = 0;  % Columns`
+
+## Output:
+![alt text](https://github.com/IbrahimOmar91/SFND-Radar/blob/master/imgs/out01.PNG)
+
+![alt text](https://github.com/IbrahimOmar91/SFND-Radar/blob/master/imgs/out02.PNG)
+
+![alt text](https://github.com/IbrahimOmar91/SFND-Radar/blob/master/imgs/out03.PNG)
