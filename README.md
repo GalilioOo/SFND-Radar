@@ -23,7 +23,7 @@ and that’s all for the Implementation.
 * `offset = 1.4` the offset value.
 
 ## Steps taken to suppress the non-thresholded cells at the edges
-This was done throught sclicing the output such that we have the surrounding rows and columns sepending on the Training cells for both range and doppler.<br>
+This was done throught sclicing the output such that we have the surrounding rows and columns depending on the Training cells for both range and doppler.<br>
 `RDM(union(1:(Tr+Gr),end-(Tr+Gr-1):end),:) = 0;  % Rows`<br>
 `RDM(:,union(1:(Td+Gd),end-(Td+Gd-1):end)) = 0;  % Columns`
 
